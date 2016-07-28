@@ -530,10 +530,12 @@
     </library>
     <library name="bcrypt (v3.1.10, rbenv: 2.3.0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/bcrypt/3.1.10" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.10/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.10/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/bcrypt/3.1.10" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.10/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.10/lib" />
       </SOURCES>
@@ -1240,6 +1242,24 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/cocaine-0.5.8/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods (v1.1.0.beta.1, rbenv: 2.3.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-1.1.0.beta.1/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-1.1.0.beta.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-1.1.0.beta.1/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-1.1.0.beta.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="cocoapods-core (v1.1.0.beta.1, rbenv: 2.3.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-core-1.1.0.beta.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/cocoapods-core-1.1.0.beta.1/lib" />
       </SOURCES>
     </library>
     <library name="codemirror-rails (v5.11, rbenv: 2.3.0) [gem]">
@@ -2282,6 +2302,26 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/formatador-0.2.5/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/formatador-0.2.5/tests" />
+      </SOURCES>
+    </library>
+    <library name="fourflusher (v1.0.1, rbenv: 2.3.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/fourflusher-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/fourflusher-1.0.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/fourflusher-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/fourflusher-1.0.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="gh_inspector (v1.0.2, rbenv: 2.3.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/gh_inspector-1.0.2/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/gh_inspector-1.0.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/gh_inspector-1.0.2/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/gh_inspector-1.0.2/lib" />
       </SOURCES>
     </library>
     <library name="get_process_mem (v0.2.1, rbenv: 2.3.0) [gem]">
@@ -3530,6 +3570,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/mobu-0.0.3/lib" />
       </SOURCES>
     </library>
+    <library name="molinillo (v0.5.0, rbenv: 2.3.0) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/molinillo-0.5.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.3.0/gems/molinillo-0.5.0/lib" />
+      </SOURCES>
+    </library>
     <library name="moneta (v0.8.0, rbenv: 2.3.0) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/moneta-0.8.0/lib" />
@@ -3806,6 +3854,7 @@
     </library>
     <library name="nokogiri (v1.6.6.2, rbenv: 2.3.0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.6.6.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/bin" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/lib" />
@@ -3813,6 +3862,7 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/suppressions" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.6.6.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/bin" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.6.6.2/lib" />
@@ -4016,11 +4066,13 @@
     </library>
     <library name="pg (v0.18.2, rbenv: 2.3.0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/pg/0.18.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/sample" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/pg/0.18.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.18.2/sample" />

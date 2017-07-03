@@ -1,0 +1,178 @@
+<templateSet group="user">
+  <template name="respond_to" value="  respond_to do |format|&#10;      if @$ATTRIBUTE_NAMES$s&#10;        format.html { render :nothing}&#10;        format.json { render :json =&gt; {&#10;          data: {&#10;              $ATTRIBUTE_NAMES$s: @$ATTRIBUTE_NAMES$s.as_json,&#10;              current_page: @$ATTRIBUTE_NAMES$s.current_page,&#10;              per_page: @$ATTRIBUTE_NAMES$s.per_page,&#10;              total_entries: @$ATTRIBUTE_NAMES$s.total_entries&#10;          }, status: 200,&#10;          result: 'success'} }&#10;      else&#10;        format.html { render :nothing}&#10;        format.json { render :show}&#10;      end&#10;    end" description="respond_to |format|" toReformat="true" toShortenFQNames="true">
+    <variable name="ATTRIBUTE_NAMES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="pagi" value="paginate :page =&gt; params[:page]" description=".paginate :page =&gt; params[:page]" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="def as_json" value="  def as_json(options = nil)&#10;    super(options || {&#10;        :methods =&gt;&#10;            [&#10;                :post_comments_count, :post_upvotes, :post_downvotes, :post_upvoted?, :post_downvoted?&#10;            ], :include =&gt;&#10;            [&#10;                :post_attachment_images, :tags,&#10;                {&#10;                    :user =&gt; {&#10;                        :only =&gt; [:image, :name&#10;                        ]&#10;                    }&#10;                }, #must include&quot;{}&quot;&#10;                :post_comments =&gt; {&#10;                    :include =&gt; {&#10;                        :user =&gt; {&#10;                            :only =&gt; [&#10;                                :image, :name&#10;                            ]&#10;                        }&#10;                    }&#10;                }&#10;            ]&#10;    }&#10;    )&#10;  end" description="def as_json" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="sjson" value="json.data do&#10;  json.merge! $model$.attributes.as_json&#10;end" description="singlejson" toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="ajson" value="json.data do&#10;  json.array! @$model$s, partial: 'member/posts/$model$', as: :$model$&#10;end" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="auth" value="before_action :authenticate_user!" description="authenticate_user" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="search" value="if (current_user)&#10;      Post.current_user= = current_user&#10;      Comment.current_user= = current_user&#10;    end&#10;    if params[:search_words]&#10;      User.reindex&#10;      @$model$s = User.search(params[:search_words], page: params[:page], per_page: 20)&#10;    else&#10;      @$model$s = User.includes(:member_info_basic).all.paginate :page =&gt; params[:page]&#10;    end" description="search words" toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="search_and_tag" value="if (current_user)&#10;      Post.current_user = current_user&#10;      Comment.current_use  = current_user&#10;    end&#10;    @$posts$ = $Post$.includes(:post_attachment_images, :user).order(updated_at: :desc).all.paginate :page =&gt; params[:page]&#10;    if params[:tag]&#10;      @$posts$ = $Post$.tagged_with(params[:tag]).order(updated_at: :desc).all.paginate :page =&gt; params[:page]&#10;    elsif params[:app]&#10;      @$posts$ = $Post$.tagged_with(params[:app]).order(updated_at: :desc).all.paginate :page =&gt; params[:page]&#10;    elsif params[:search_words]&#10;      $Post$.reindex&#10;      @$posts$ = $Post$.search(params[:search_words], page: params[:page], per_page: 20)&#10;    else&#10;      @$posts$ = $Post$.includes(:post_attachment_images, :user).order(updated_at: :desc).all.paginate :page =&gt; params[:page]&#10;    end" description="search_and_tag" toReformat="true" toShortenFQNames="true">
+    <variable name="posts" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Post" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="form_for" value="&lt;div class=&quot;row&quot;&gt;&#10;  &lt;div class=&quot;col-md-6 col-md-offset-3&quot;&gt;&#10;    &lt;%= form_for(@$user$) do |f| %&gt;&#10;        &lt;% if @$user$.errors.any? %&gt;&#10;            &lt;div id=&quot;error_explanation&quot;&gt;&#10;              &lt;h2&gt;&lt;%= pluralize(@$user$.errors.count, &quot;error&quot;) %&gt; prohibited this user from being saved:&lt;/h2&gt;&#10;&#10;              &lt;ul&gt;&#10;                &lt;% @$user$.errors.full_messages.each do |message| %&gt;&#10;                    &lt;li&gt;&lt;%= message %&gt;&lt;/li&gt;&#10;                &lt;% end %&gt;&#10;              &lt;/ul&gt;&#10;            &lt;/div&gt;&#10;        &lt;% end %&gt;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#10;          &lt;%= f.text_field :name, placeholder: &quot;用户名&quot;, class: 'form-control' %&gt;&#10;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#10;&#10;          &lt;%= f.email_field :email, placeholder: '邮箱', class: 'form-control' %&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#10;&#10;          &lt;%= f.password_field :password, placeholder: '密码', class: 'form-control' %&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;div class=&quot;form-group&quot;&gt;&#10;&#10;          &lt;%= f.password_field :password_confirmation, placeholder: '确认密码', class: 'form-control' %&gt;&#10;        &lt;/div&gt;&#10;&#10;        &lt;%= f.submit &quot;注册账号&quot;, class: &quot;btn btn-primary&quot; %&gt;&#10;    &lt;% end %&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="form for model" toReformat="true" toShortenFQNames="true">
+    <variable name="user" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="$1$&#10;########################################&#10;##########参考以上代码修改表单############&#10;########################################" description="comment source" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="jbuilder_show" value="json.merge! @$model$.attributes.as_json&#10;json.$model$_comments_count @$model$.$model$_comments_count&#10;json.$model$_upvotes @$model$.$model$_upvotes&#10;json.$model$_downvotes @$model$.$model$_downvotes&#10;json.$model$_upvoted? @$model$.$model$_upvoted?&#10;json.$model$_downvoted? @$model$.$model$_downvoted?&#10;json.cover @$model$.cover.url&#10;json.user do&#10;  json.image @$model$.user.member_info_basic.image.url&#10;  json.name @$model$.user.member_info_basic.name if @$model$.user.member_info_basic&#10;end&#10;json.$model$_comments do&#10;  json.array! @$model$.$model$_comments do |comment|&#10;    json.comment comment&#10;    json.comment_upvotes comment.comment_upvotes&#10;    json.comment_downvotes comment.comment_downvotes&#10;    json.comment_upvoted? comment.comment_upvoted?&#10;    json.comment_downvoted? comment.comment_downvoted?&#10;    json.user do&#10;      json.name comment.user.member_info_basic ? comment.user.member_info_basic.name : &quot;无名&quot;&#10;      json.image comment.user.member_info_basic ? comment.user.member_info_basic.image.url : &quot;http://ociweb.oss-cn-hangzhou.aliyuncs.com/uploads/my_file/name/pp.png&quot;&#10;    end&#10;  end&#10;end" description="jbuilder show" toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="json.array" value="json.array! @$model$s, partial: 'shared/$model$', as: :$model$&#10;" description="json.array! with partial" toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="json.partial" value="json.partial! 'shared/$name$', :$name$ =&gt; @$name$" description="json.partial shared" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="json.current_page" value="json.current_page @$model_name$s.current_page&#10;json.per_page @$model_name$s.per_page&#10;json.total_entries @$model_name$s.total_entries&#10;json.$model_name$s do&#10;  json.array! @$model_name$s, partial: 'shared/$model_name$', as: :$model_name$&#10;end" description="json current with array shared" toReformat="true" toShortenFQNames="true">
+    <variable name="model_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="flash-message" value="&lt;% flash.each do |message_type, message| %&gt;&#10;      &lt;div class=&quot;alert alert-&lt;%= message_type %&gt;&quot;&gt;&lt;%= message %&gt;&lt;/div&gt;&#10;  &lt;% end %&gt;" description="flash message" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="get_loading_time" value="before_action :set_start_time&#10;&#10;def set_start_time&#10;@start_time = Time.now.to_f&#10;end&#10;Page Rendered in &lt;%= sprintf('%.3f', (Time.now.to_f - @start_time) ) %&gt; seconds&#10;" description="print loading time" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="cq" value="∆__在此处解答__∆&#10;&#10;" description="comment question anser" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="c`" value="*$title$*&#10;```&#10;∆__在此处解答__∆&#10;&#10;$code$&#10;&#10;```" description="comment with code" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="RHTML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Slim" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="skip_before_action_token" value="skip_before_action :verify_authenticity_token, if: :json_request?&#10;&#10;&#10;&#10;  protected&#10;  def json_request?&#10;    request.format.json?&#10;  end" description="skip verify_authenticity_token" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="&lt;%= render partial" value="&lt;%= render partial: 'shared/${comment}', :locals =&gt; {:${comment} =&gt; ${comment} %&gt;&#10;" description="&lt;%= render partial: 'shared/comment', :locals =&gt; {:comment =&gt; comment} %&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;%= link_to_do" value="&lt;%= link_to $path$, :id =&gt; &quot;$id$&quot; &lt;&lt;index, :class =&gt; &quot;$class$&quot;, :target =&gt; '_blank' do %&gt;&#10;              &lt;img src=&quot;&lt;%= asset_path &quot;$imagesrc$&quot; %&gt;&quot;&gt;&#10;          &lt;% end %&gt;" description="link_to_do" toReformat="true" toShortenFQNames="true">
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="imagesrc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;%= image_tag" value="&lt;%= image_tag &quot;$src$&quot;,:class =&gt; &quot;img-responsive&quot;, :alt =&gt; &quot;Responsive image&quot;%&gt;" description="image_tag" toReformat="true" toShortenFQNames="true">
+    <variable name="src" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="change-column" value="change_column :$table_name$, :$column_name$,  :$date$" description="changecolumn" toReformat="true" toShortenFQNames="true">
+    <variable name="table_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="change-column-integer" value="change_column :$table$, :$column$, 'integer USING CAST($column_name$ AS integer)'" description="column to integer" toReformat="true" toShortenFQNames="true">
+    <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="column" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="trun" value="truncate $length$" description="省略" toReformat="true" toShortenFQNames="true">
+    <variable name="length" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="trun" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

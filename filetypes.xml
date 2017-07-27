@@ -4,6 +4,7 @@
       <mapping pattern="procedure" type="PLAIN_TEXT" />
       <mapping pattern="procedure.sql" type="PLAIN_TEXT" />
       <mapping pattern="game_run" type="PLAIN_TEXT" />
+      <mapping pattern="Fastfile" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />

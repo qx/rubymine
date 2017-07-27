@@ -10,7 +10,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -29,7 +28,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -48,7 +46,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -67,7 +64,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -86,7 +82,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -123,7 +118,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -140,7 +134,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -157,7 +150,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -174,7 +166,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -192,7 +183,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -210,7 +200,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -229,7 +218,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -249,7 +237,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -275,7 +262,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -296,7 +282,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -316,7 +301,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -334,7 +318,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -352,7 +335,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -370,7 +352,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -388,7 +369,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -406,7 +386,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -424,7 +403,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -444,7 +422,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -464,7 +441,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -483,7 +459,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -506,7 +481,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -528,7 +502,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -550,7 +523,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -569,7 +541,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -586,7 +557,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -603,7 +573,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -620,7 +589,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -637,7 +605,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -654,7 +621,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -673,7 +639,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -692,7 +657,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -711,7 +675,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -730,7 +693,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -749,7 +711,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -769,7 +730,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -789,7 +749,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -808,7 +767,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -832,7 +790,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -852,7 +809,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -870,7 +826,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -888,7 +843,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -905,7 +859,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -923,7 +876,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -941,7 +893,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -959,7 +910,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -979,7 +929,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -998,7 +947,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1019,7 +967,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1040,7 +987,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1060,7 +1006,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1080,7 +1025,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1100,7 +1044,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1121,7 +1064,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1140,7 +1082,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1161,7 +1102,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1179,7 +1119,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1198,7 +1137,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1215,7 +1153,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1232,7 +1169,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1249,7 +1185,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1266,7 +1201,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1283,7 +1217,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1300,7 +1233,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1317,7 +1249,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1334,7 +1265,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1351,7 +1281,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1368,7 +1297,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1385,7 +1313,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1402,7 +1329,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1419,7 +1345,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1436,7 +1361,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1457,7 +1381,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1477,7 +1400,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1498,7 +1420,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1518,7 +1439,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1538,7 +1458,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1561,7 +1480,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1587,7 +1505,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1607,7 +1524,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1630,7 +1546,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1652,7 +1567,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1672,7 +1586,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />
@@ -1691,7 +1604,6 @@
       <option name="HAML" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
       <option name="JSP" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="OTHER" value="true" />
       <option name="PHP" value="true" />
       <option name="SQL" value="false" />

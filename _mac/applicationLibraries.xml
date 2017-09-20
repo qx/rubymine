@@ -120,6 +120,28 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-8f8e2662d5b9/gemfiles" />
       </SOURCES>
     </library>
+    <library name="activeadmin (v2.0.0.alpha@bff779, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/app" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/tasks" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/config" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/vendor" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/.github" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/features" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/app" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/tasks" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/config" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/vendor" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/.github" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/features" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-bff779a4c879/gemfiles" />
+      </SOURCES>
+    </library>
     <library name="activejob (v4.2.7, rbenv: 2.3.4) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/activejob-4.2.7/lib" />

@@ -1,5 +1,8 @@
 <keymap version="1" name="Mac OS X 10.5-custome" parent="Mac OS X 10.5+">
   <action id="ChangesView.Diff" />
+  <action id="CloseActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="d" />
+  </action>
   <action id="CloseContent" />
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
@@ -21,8 +24,11 @@
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
-  <action id="ToggleDistractionFreeMode">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="d" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="2" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="3" />
   </action>
   <action id="TogglePresentationMode">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />

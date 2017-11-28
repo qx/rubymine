@@ -1,7 +1,0 @@
-<templateSet group="Bootstrap3Jade">
-  <template name="bs3-alert-link" value=".alert.alert-warning(role='alert')&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re &#10;  a.alert-link(href='#') not looking too good&#10;  | .&#10;$END$" description="Alert with alert link (warning)" toReformat="true" toShortenFQNames="false">
-    <context>
-      <option name="JADE" value="true" />
-    </context>
-  </template>
-</templateSet>

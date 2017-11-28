@@ -1,5 +1,5 @@
 <application>
-  <component name="NotificationConfiguration">
+  <component name="NotificationConfiguration" showBalloons="false" systemNotifications="false">
     <notification groupId="Database detector" shouldLog="false" />
     <notification groupId="Gem Manager" shouldLog="false" />
   </component>

@@ -9,13 +9,4 @@
   <component name="DaemonCodeAnalyzerSettings">
     <option name="AUTOREPARSE_DELAY" value="1000" />
   </component>
-  <component name="JSCodeFoldingSettings">
-    <option name="collapseArrayLiterals" value="true" />
-    <option name="collapseXmlLiterals" value="true" />
-    <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
-    <option name="COLLAPSE_XML_LITERALS" value="true" />
-  </component>
-  <component name="XmlFoldingSettings">
-    <option name="COLLAPSE_HTML_STYLE_ATTRIBUTE" value="false" />
-  </component>
 </application>

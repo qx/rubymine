@@ -43,4 +43,16 @@
       <option name="CoffeeScript" value="true" />
     </context>
   </template>
+  <template name="cl" value="console.log(`$name$的值为: ${$val$}`);" description="log" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="val" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ct" value="console.trace();" description="console.trace();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

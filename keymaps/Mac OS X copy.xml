@@ -25,11 +25,14 @@
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="1" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
   <action id="FindUsages">
-    <keyboard-shortcut first-keystroke="ctrl f" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="meta p" />
@@ -37,6 +40,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="GotoLine" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -44,6 +48,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="ParameterInfo" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -70,5 +77,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>

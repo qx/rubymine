@@ -13,11 +13,17 @@
   <action id="Console.TableResult.DeleteRows" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="alt button142" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="alt button143" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift meta 8" />

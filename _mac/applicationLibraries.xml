@@ -2396,6 +2396,26 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/database_cleaner-1.6.2/features" />
       </SOURCES>
     </library>
+    <library name="debase (v0.2.1, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.1/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.1/ext" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.1/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.1/ext" />
+      </SOURCES>
+    </library>
+    <library name="debase (v0.2.2.beta11, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta11/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta11/ext" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta11/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta11/ext" />
+      </SOURCES>
+    </library>
     <library name="debase (v0.2.2.beta9, rbenv: 2.3.4) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta9/ext" />
@@ -2404,6 +2424,14 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta9/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-0.2.2.beta9/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.2, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-ruby_core_source-0.10.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/debase-ruby_core_source-0.10.2/lib" />
       </SOURCES>
     </library>
     <library name="debase-ruby_core_source (v0.9.9, rbenv: 2.3.4) [gem]">
@@ -7242,6 +7270,18 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rubocop-0.52.0/config" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rubocop-0.52.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/rubocop-0.52.0/bin" />
+      </SOURCES>
+    </library>
+    <library name="ruby-debug-ide (v0.6.1.beta10, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/ext" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/bin" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/ext" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/ruby-debug-ide-0.6.1.beta10/bin" />
       </SOURCES>
     </library>
     <library name="ruby-debug-ide (v0.6.1.beta4, rbenv: 2.3.4) [gem]">

@@ -10,9 +10,9 @@
       <mapping pattern="temp" type="PLAIN_TEXT" />
       <mapping pattern=".rspec" type="PLAIN_TEXT" />
       <mapping pattern="remove_unused_image" type="PLAIN_TEXT" />
+      <mapping pattern="PackageApplication" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
       <mapping ext="el" type="PLAIN_TEXT" />
-      <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="arb" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
@@ -20,6 +20,7 @@
       <mapping ext="mobileconfig" type="PLAIN_TEXT" />
       <mapping ext="t" type="PLAIN_TEXT" />
       <mapping ext="s" type="PLAIN_TEXT" />
+      <mapping ext="p12" type="PLAIN_TEXT" />
       <mapping ext="sdef" type="XML" />
       <mapping pattern="takeplace" type="YAML" />
     </extensionMap>

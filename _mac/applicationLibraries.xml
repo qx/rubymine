@@ -2172,6 +2172,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/capistrano-rbenv-2.0.4/lib" />
       </SOURCES>
     </library>
+    <library name="capistrano-rbenv (v2.1.3, rbenv: 2.4.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano-rbenv-2.1.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano-rbenv-2.1.3/lib" />
+      </SOURCES>
+    </library>
     <library name="capistrano-rvm (v0.1.2, rbenv: 2.3.4) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/capistrano-rvm-0.1.2/lib" />
@@ -2248,6 +2256,16 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/templates" />
+      </SOURCES>
+    </library>
+    <library name="capistrano3-nginx (v2.1.6, rbenv: 2.4.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/templates" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/templates" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/capistrano3-nginx-2.1.6/lib" />
       </SOURCES>
     </library>
     <library name="capybara (v2.13.0, rbenv: 2.4.2) [gem]">

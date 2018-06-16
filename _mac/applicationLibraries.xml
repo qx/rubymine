@@ -2780,6 +2780,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/CFPropertyList-2.3.5/lib" />
       </SOURCES>
     </library>
+    <library name="CFPropertyList (v2.3.6, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.3.6/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/CFPropertyList-2.3.6/lib" />
+      </SOURCES>
+    </library>
     <library name="CFPropertyList (v2.3.6, rbenv: 2.4.2) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/CFPropertyList-2.3.6/lib" />
@@ -4216,6 +4224,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/faker-1.8.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="faker (v1.8.5, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/faker-1.8.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/faker-1.8.5/lib" />
       </SOURCES>
     </library>
     <library name="faker (v1.8.5, rbenv: 2.4.2) [gem]">
@@ -11626,6 +11642,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/uglifier-4.0.1/lib" />
       </SOURCES>
     </library>
+    <library name="uglifier (v4.0.2, rbenv: 2.3.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/uglifier-4.0.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/uglifier-4.0.2/lib" />
+      </SOURCES>
+    </library>
     <library name="uglifier (v4.0.2, rbenv: 2.4.2) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/uglifier-4.0.2/lib" />
@@ -12046,18 +12070,6 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/libexec" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/bin" />
-      </SOURCES>
-    </library>
-    <library name="wkhtmltox-binaries (v0.13.0.pre.alpha.0.1, rbenv: 2.4.4) [gem]">
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/libexec" />
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/lib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/bin" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/libexec" />
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/lib" />
-        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.13.0.pre.alpha.0.1/bin" />
       </SOURCES>
     </library>
     <library name="word_wrap (v1.0.0, rbenv: 2.3.4) [gem]">

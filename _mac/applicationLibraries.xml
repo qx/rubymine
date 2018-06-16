@@ -12072,6 +12072,18 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/bin" />
       </SOURCES>
     </library>
+    <library name="wkhtmltox-binaries (v0.12.3, rbenv: 2.4.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/libexec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/bin" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/libexec" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/wkhtmltox-binaries-0.12.3/lib" />
+      </SOURCES>
+    </library>
     <library name="word_wrap (v1.0.0, rbenv: 2.3.4) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/word_wrap-1.0.0/bin" />

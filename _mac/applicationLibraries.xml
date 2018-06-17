@@ -3136,6 +3136,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.2/lib/ruby/gems/2.4.0/gems/colorize-0.8.1/lib" />
       </SOURCES>
     </library>
+    <library name="colorize (v0.8.1, rbenv: 2.4.4) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/colorize-0.8.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/colorize-0.8.1/lib" />
+      </SOURCES>
+    </library>
     <library name="commander-fastlane (v4.4.5, rbenv: 2.3.4) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.4/lib/ruby/gems/2.3.0/gems/commander-fastlane-4.4.5/bin" />

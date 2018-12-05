@@ -1,0 +1,27 @@
+<templateSet group="Ruby RSpec">
+  <template name="exp" value="expect($target$).to be_$what$" description="expect-to-be" toReformat="false" toShortenFQNames="true">
+    <variable name="target" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="what" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="expr" value="expect($target$).to receive(:$methodname$).with($args$).and_return($return$)" description="expect-to-receive" toReformat="false" toShortenFQNames="true">
+    <variable name="target" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="methodname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="allow" value="allow($object$).to receive(:$method$).with($args$).and_return($value$)" description="allow-to-return" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

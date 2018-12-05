@@ -1,0 +1,15 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="1000" />
+    <option name="CARET_BLINKING_PERIOD" value="1000" />
+    <option name="IS_BLOCK_CURSOR" value="true" />
+  </component>
+  <component name="SqlEditorOptions">
+    <option name="concatenateStringsOnEnter" value="true" />
+    <option name="qualificationType" value="On collisions" />
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+</application>

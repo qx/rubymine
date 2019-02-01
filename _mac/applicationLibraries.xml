@@ -644,11 +644,13 @@
         <option name="version" value="3" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/bindex/0.5.0" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/test" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/bindex/0.5.0" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/bindex-0.5.0/test" />
@@ -917,11 +919,13 @@
         <option name="version" value="3" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/byebug/10.0.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/exe" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/byebug/10.0.2" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/exe" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/byebug-10.0.2/lib" />
@@ -2171,11 +2175,13 @@
         <option name="version" value="3" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/ffi/1.10.0" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/samples" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs24/ffi/1.10.0" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/ext" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/lib" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/ffi-1.10.0/samples" />

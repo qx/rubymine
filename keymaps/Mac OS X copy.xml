@@ -11,6 +11,7 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="ContextHelp" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDeleteLine">
@@ -54,7 +55,7 @@
     <keyboard-shortcut first-keystroke="ctrl meta f" />
   </action>
   <action id="RunClass">
-    <keyboard-shortcut first-keystroke="ctrl meta t" />
+    <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />

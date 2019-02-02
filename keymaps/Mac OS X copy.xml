@@ -3,6 +3,8 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="t" />
   </action>
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
   </action>
@@ -11,6 +13,10 @@
   </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.DeleteRows" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="ContextHelp" />
   <action id="Diff.ShowDiff" />
   <action id="DuplicatesForm.SendToRight" />
@@ -35,12 +41,16 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="GotoNextError" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -52,13 +62,16 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="RerunFailedTests">
-    <keyboard-shortcut first-keystroke="ctrl meta f" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="2" />
   </action>
@@ -81,5 +94,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleFullScreen" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>

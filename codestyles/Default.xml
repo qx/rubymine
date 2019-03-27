@@ -1,1 +1,13 @@
-<code_scheme name="Default" />
+<code_scheme name="Default" version="173">
+  <yaml>
+    <option name="ALIGN_VALUES_PROPERTIES" value="1" />
+    <option name="SEQUENCE_ON_NEW_LINE" value="true" />
+    <option name="BLOCK_MAPPING_ON_NEW_LINE" value="true" />
+  </yaml>
+  <codeStyleSettings language="yaml">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

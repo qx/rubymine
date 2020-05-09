@@ -2405,6 +2405,17 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/capistrano-rails-1.4.0/.github" />
       </excluded>
     </library>
+    <library name="capistrano-rails-console (v2.3.0, rbenv: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/capistrano-rails-console-2.3.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/capistrano-rails-console-2.3.0/lib" />
+      </SOURCES>
+    </library>
     <library name="capistrano-rails-db (v0.0.2, rbenv: 2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -11913,6 +11924,22 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-1.21.0/test" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-1.21.0/.github" />
         <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-1.21.0/examples" />
+      </excluded>
+    </library>
+    <library name="sshkit-interactive (v0.3.0, rbenv: 2.7.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-interactive-0.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-interactive-0.3.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-interactive-0.3.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-interactive-0.3.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/sshkit-interactive-0.3.0/spec" />
       </excluded>
     </library>
     <library name="tactful_tokenizer (v0.0.5, rbenv: 2.4.4) [gem]" type="rubylib">

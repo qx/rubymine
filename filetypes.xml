@@ -9,6 +9,7 @@
       <mapping pattern=".rspec" type="PLAIN_TEXT" />
       <mapping pattern="UserWelcome" type="PLAIN_TEXT" />
       <mapping pattern="e" type="PLAIN_TEXT" />
+      <mapping ext="temp" type="PLAIN_TEXT" />
       <mapping ext="cer" type="PLAIN_TEXT" />
       <mapping ext="ruby" type="PLAIN_TEXT" />
       <mapping ext="arb" type="PLAIN_TEXT" />
